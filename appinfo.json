@@ -1,0 +1,35 @@
+{
+  "uuid": "4498bc3f-3bb0-4a39-8fce-cb2afff43f27",
+  "shortName": "simple-timer",
+  "longName": "Simple Timer",
+  "companyName": "A.J <andrwj@gmail.com>",
+  "versionCode": 1,
+  "versionLabel": "0.0.1",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+  },
+  "resources": {
+    "media": [
+            {
+                "characterRegex": "[:0-9. )Nolapsyet]",
+                "type": "font",
+                "name": "FONT_DEJAVU_SANS_SUBSET_18",
+                "file": "fonts/DejaVuSans.ttf"
+            },
+            {
+                "characterRegex": "[:0-9. ]",
+                "type": "font",
+                "name": "FONT_DEJAVU_SANS_SUBSET_22",
+                "file": "fonts/DejaVuSans.ttf"
+            },
+            {
+                "characterRegex": "[:0-9]",
+                "type": "font",
+                "name": "FONT_DEJAVU_SANS_BOLD_SUBSET_30",
+                "file": "fonts/DejaVuSans-Bold.ttf"
+            }
+    ]
+  }
+}
